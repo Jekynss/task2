@@ -19,5 +19,5 @@ puts "currency #{cost_usd}"
 unless ARGV[0].nil?
 	puts ARGV[0].to_f*cost_usd.to_f
 else
-	puts "Enter dollar sum"
+	puts "Enter dollar sum via console"
 end
